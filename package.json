@@ -1,0 +1,26 @@
+{
+  "name": "app-android-studio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/loginTest.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "playright": "^0.0.22",
+    "playwright": "^1.41.1"
+  },
+  "dependencies": {
+    "appium": "^2.4.1",
+    "dotenv": "^16.3.2",
+    "fsevents": "^2.3.2",
+    "playwright-android": "^0.0.8",
+    "playwright-core": "^1.41.1",
+    "typescript": "^4.9.5",
+    "wd": "^1.14.0"
+  },
+  "keywords": [],
+  "description": ""
+}
